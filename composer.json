@@ -1,0 +1,25 @@
+{
+    "name": "creation-agency/cloudwatch-logger",
+    "description": "CloudWatch Logging Handler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carey Hiles",
+            "email": "carey.hiles@creation.agency",
+            "homepage": "https://creation.agency"
+        },
+        {
+            "name": "Robert Bourne",
+            "email": "robertbourne86@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "aws/aws-sdk-php": "^3.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "CreationMedia\\CloudWatchLogger\\": "./src"
+        }
+    }
+}
